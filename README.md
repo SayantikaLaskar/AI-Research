@@ -212,6 +212,10 @@ conv_001,sample.wav,210.3,2,scammer|victim,public,Studio,hi,Sample conversation
 - **Anonymization**: Speaker identities protected
 - **Research Use**: Dataset for academic research only
 
+
+## Google Drive link: 
+- https://drive.google.com/drive/folders/1b1Bxslohmh3Y71Xb6XIIzhL9-EkSMEZQ?usp=sharing
+
 ## Usage Examples
 
 ### Loading Audio
