@@ -285,7 +285,7 @@ This project is for research purposes only. Please ensure compliance with local 
 
 ## Contact
 
-For questions or issues, please contact [your email].
+For questions or issues, please contact [sayantikalaskar2002@gmail.com].
 
 ---
 
