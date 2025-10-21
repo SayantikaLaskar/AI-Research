@@ -1,0 +1,60 @@
+{
+  "file_id": "bank_fraud_hindi_001",
+  "duration": 300,
+  "num_speakers": 2,
+  "speakers": [
+    "SPEAKER_1",
+    "SPEAKER_2"
+  ],
+  "language": "hindi",
+  "segments": [
+    {
+      "start": 0,
+      "end": 8,
+      "speaker": "SPEAKER_1",
+      "text": "Namaste, main SBI bank ke fraud department se baat kar raha hun. Aapka naam kya hai?",
+      "duration": 8,
+      "role": "scammer"
+    },
+    {
+      "start": 8,
+      "end": 12,
+      "speaker": "SPEAKER_2",
+      "text": "Haan, main Rajesh Kumar hun. Kya problem hai?",
+      "duration": 4,
+      "role": "victim"
+    },
+    {
+      "start": 12,
+      "end": 20,
+      "speaker": "SPEAKER_1",
+      "text": "Sir, aapke account mein suspicious activity detect hui hai. Kya aapne koi online transaction ki hai aaj?",
+      "duration": 8,
+      "role": "scammer"
+    },
+    {
+      "start": 20,
+      "end": 25,
+      "speaker": "SPEAKER_2",
+      "text": "Nahi, maine koi transaction nahi ki hai. Kya hua hai?",
+      "duration": 5,
+      "role": "victim"
+    },
+    {
+      "start": 25,
+      "end": 35,
+      "speaker": "SPEAKER_1",
+      "text": "Sir, aapke account se 50,000 rupees ka transaction hua hai. Aapko OTP share karna hoga verification ke liye.",
+      "duration": 10,
+      "role": "scammer"
+    },
+    {
+      "start": 35,
+      "end": 40,
+      "speaker": "SPEAKER_2",
+      "text": "Main OTP share nahi kar sakta. Aap directly bank se contact karein.",
+      "duration": 5,
+      "role": "victim"
+    }
+  ]
+}

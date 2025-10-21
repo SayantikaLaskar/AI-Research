@@ -1,0 +1,74 @@
+{
+  "title": "Scam Call Dataset Collection Plan",
+  "created": "2025-10-21T13:12:30.721792",
+  "target": {
+    "total_conversations": 20,
+    "languages": {
+      "hindi": 7,
+      "hinglish": 7,
+      "english": 6
+    },
+    "total_duration_minutes": 120,
+    "average_duration_minutes": 6
+  },
+  "collection_methods": {
+    "youtube_downloads": {
+      "description": "Download existing scam call videos from YouTube",
+      "target_files": 10,
+      "advantages": [
+        "Real conversations",
+        "Natural speech patterns",
+        "Authentic scenarios"
+      ],
+      "disadvantages": [
+        "Copyright issues",
+        "Variable quality",
+        "May need permission"
+      ]
+    },
+    "simulated_recordings": {
+      "description": "Record scripted conversations with actors",
+      "target_files": 8,
+      "advantages": [
+        "Controlled quality",
+        "Clear consent",
+        "Consistent format"
+      ],
+      "disadvantages": [
+        "May sound scripted",
+        "Requires actors",
+        "Time-consuming"
+      ]
+    },
+    "tts_synthesis": {
+      "description": "Generate audio using text-to-speech",
+      "target_files": 2,
+      "advantages": [
+        "Fast generation",
+        "Consistent quality",
+        "Easy to modify"
+      ],
+      "disadvantages": [
+        "May sound robotic",
+        "Limited emotional range",
+        "Less natural"
+      ]
+    }
+  },
+  "quality_requirements": {
+    "audio_quality": "Clear, minimal background noise",
+    "speaker_separation": "Distinct voices for scammer and victim",
+    "language_accuracy": "Proper pronunciation and accent",
+    "content_authenticity": "Realistic scam scenarios",
+    "duration": "2-8 minutes per conversation"
+  },
+  "next_steps": [
+    "1. Review recording guides and scenarios",
+    "2. Choose collection method(s) based on resources",
+    "3. Start with 3-5 files per language for testing",
+    "4. Record/download audio files",
+    "5. Process audio using main_pipeline.py",
+    "6. Manually annotate speaker roles",
+    "7. Validate and finalize dataset"
+  ]
+}

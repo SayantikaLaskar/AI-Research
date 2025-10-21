@@ -1,0 +1,60 @@
+{
+  "file_id": "tech_support_hinglish_001",
+  "duration": 400,
+  "num_speakers": 2,
+  "speakers": [
+    "SPEAKER_1",
+    "SPEAKER_2"
+  ],
+  "language": "hinglish",
+  "segments": [
+    {
+      "start": 0,
+      "end": 10,
+      "speaker": "SPEAKER_1",
+      "text": "Hello sir, main Microsoft se call kar raha hun. Aapke computer mein virus aa gaya hai.",
+      "duration": 10,
+      "role": "scammer"
+    },
+    {
+      "start": 10,
+      "end": 16,
+      "speaker": "SPEAKER_2",
+      "text": "Really? Kaise pata chala? Main toh kuch notice nahi kiya.",
+      "duration": 6,
+      "role": "victim"
+    },
+    {
+      "start": 16,
+      "end": 25,
+      "speaker": "SPEAKER_1",
+      "text": "Sir, hamare system mein alert aaya hai. Aapko remote access dena hoga check karne ke liye.",
+      "duration": 9,
+      "role": "scammer"
+    },
+    {
+      "start": 25,
+      "end": 30,
+      "speaker": "SPEAKER_2",
+      "text": "Remote access? Yeh safe hai? Main thoda suspicious hun.",
+      "duration": 5,
+      "role": "victim"
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "speaker": "SPEAKER_1",
+      "text": "Bilkul safe hai sir. Main Microsoft certified engineer hun. Aapko 5000 rupees charge karna hoga service ke liye.",
+      "duration": 10,
+      "role": "scammer"
+    },
+    {
+      "start": 40,
+      "end": 45,
+      "speaker": "SPEAKER_2",
+      "text": "Main payment nahi kar sakta. Aap directly Microsoft website se contact karein.",
+      "duration": 5,
+      "role": "victim"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "audio_path": "audio/processed/bank_fraud_hindi_001.wav",
+  "num_speakers": 2,
+  "speakers": [
+    "SPEAKER_1",
+    "SPEAKER_2"
+  ],
+  "total_duration": 300,
+  "segments": [
+    {
+      "start": 0,
+      "end": 8,
+      "speaker": "SPEAKER_1",
+      "duration": 8
+    },
+    {
+      "start": 8,
+      "end": 12,
+      "speaker": "SPEAKER_2",
+      "duration": 4
+    },
+    {
+      "start": 12,
+      "end": 20,
+      "speaker": "SPEAKER_1",
+      "duration": 8
+    },
+    {
+      "start": 20,
+      "end": 25,
+      "speaker": "SPEAKER_2",
+      "duration": 5
+    },
+    {
+      "start": 25,
+      "end": 35,
+      "speaker": "SPEAKER_1",
+      "duration": 10
+    },
+    {
+      "start": 35,
+      "end": 40,
+      "speaker": "SPEAKER_2",
+      "duration": 5
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "file_id": "lottery_scam_english_001",
+  "duration": 350,
+  "num_speakers": 2,
+  "speakers": [
+    "SPEAKER_1",
+    "SPEAKER_2"
+  ],
+  "language": "english",
+  "segments": [
+    {
+      "start": 0,
+      "end": 8,
+      "speaker": "SPEAKER_1",
+      "text": "Congratulations! You have won $50,000 in our international lottery. Your number was randomly selected.",
+      "duration": 8,
+      "role": "scammer"
+    },
+    {
+      "start": 8,
+      "end": 14,
+      "speaker": "SPEAKER_2",
+      "text": "Really? I never entered any lottery. How is this possible?",
+      "duration": 6,
+      "role": "victim"
+    },
+    {
+      "start": 14,
+      "end": 22,
+      "speaker": "SPEAKER_1",
+      "text": "Your phone number was automatically entered. You just need to pay processing fees of $500 to claim your prize.",
+      "duration": 8,
+      "role": "scammer"
+    },
+    {
+      "start": 22,
+      "end": 27,
+      "speaker": "SPEAKER_2",
+      "text": "I need to pay money to get money? That doesn't sound right.",
+      "duration": 5,
+      "role": "victim"
+    },
+    {
+      "start": 27,
+      "end": 33,
+      "speaker": "SPEAKER_1",
+      "text": "It's standard procedure sir. We need to verify your identity and process the transfer.",
+      "duration": 6,
+      "role": "scammer"
+    },
+    {
+      "start": 33,
+      "end": 37,
+      "speaker": "SPEAKER_2",
+      "text": "I'm not comfortable with this. I'll pass on the prize.",
+      "duration": 4,
+      "role": "victim"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "audio_path": "audio/processed/tech_support_hinglish_001.wav",
+  "num_speakers": 2,
+  "speakers": [
+    "SPEAKER_1",
+    "SPEAKER_2"
+  ],
+  "total_duration": 400,
+  "segments": [
+    {
+      "start": 0,
+      "end": 10,
+      "speaker": "SPEAKER_1",
+      "duration": 10
+    },
+    {
+      "start": 10,
+      "end": 16,
+      "speaker": "SPEAKER_2",
+      "duration": 6
+    },
+    {
+      "start": 16,
+      "end": 25,
+      "speaker": "SPEAKER_1",
+      "duration": 9
+    },
+    {
+      "start": 25,
+      "end": 30,
+      "speaker": "SPEAKER_2",
+      "duration": 5
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "speaker": "SPEAKER_1",
+      "duration": 10
+    },
+    {
+      "start": 40,
+      "end": 45,
+      "speaker": "SPEAKER_2",
+      "duration": 5
+    }
+  ]
+}

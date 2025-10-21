@@ -1,0 +1,209 @@
+{
+  "conversations": [
+    {
+      "id": "bank_fraud_hindi_001",
+      "title": "Bank Fraud Call - Hindi",
+      "language": "hindi",
+      "duration_estimate": 300,
+      "scenario": "Bank fraud department scam",
+      "script": [
+        {
+          "speaker": "scammer",
+          "text": "Namaste, main SBI bank ke fraud department se baat kar raha hun. Aapka naam kya hai?",
+          "start_time": 0,
+          "end_time": 8
+        },
+        {
+          "speaker": "victim", 
+          "text": "Haan, main Rajesh Kumar hun. Kya problem hai?",
+          "start_time": 8,
+          "end_time": 12
+        },
+        {
+          "speaker": "scammer",
+          "text": "Sir, aapke account mein suspicious activity detect hui hai. Kya aapne koi online transaction ki hai aaj?",
+          "start_time": 12,
+          "end_time": 20
+        },
+        {
+          "speaker": "victim",
+          "text": "Nahi, maine koi transaction nahi ki hai. Kya hua hai?",
+          "start_time": 20,
+          "end_time": 25
+        },
+        {
+          "speaker": "scammer",
+          "text": "Sir, aapke account se 50,000 rupees ka transaction hua hai. Aapko OTP share karna hoga verification ke liye.",
+          "start_time": 25,
+          "end_time": 35
+        },
+        {
+          "speaker": "victim",
+          "text": "Main OTP share nahi kar sakta. Aap directly bank se contact karein.",
+          "start_time": 35,
+          "end_time": 40
+        }
+      ]
+    },
+    {
+      "id": "tech_support_hinglish_001", 
+      "title": "Tech Support Scam - Hinglish",
+      "language": "hinglish",
+      "duration_estimate": 400,
+      "scenario": "Microsoft tech support scam",
+      "script": [
+        {
+          "speaker": "scammer",
+          "text": "Hello sir, main Microsoft se call kar raha hun. Aapke computer mein virus aa gaya hai.",
+          "start_time": 0,
+          "end_time": 10
+        },
+        {
+          "speaker": "victim",
+          "text": "Really? Kaise pata chala? Main toh kuch notice nahi kiya.",
+          "start_time": 10,
+          "end_time": 16
+        },
+        {
+          "speaker": "scammer", 
+          "text": "Sir, hamare system mein alert aaya hai. Aapko remote access dena hoga check karne ke liye.",
+          "start_time": 16,
+          "end_time": 25
+        },
+        {
+          "speaker": "victim",
+          "text": "Remote access? Yeh safe hai? Main thoda suspicious hun.",
+          "start_time": 25,
+          "end_time": 30
+        },
+        {
+          "speaker": "scammer",
+          "text": "Bilkul safe hai sir. Main Microsoft certified engineer hun. Aapko 5000 rupees charge karna hoga service ke liye.",
+          "start_time": 30,
+          "end_time": 40
+        },
+        {
+          "speaker": "victim",
+          "text": "Main payment nahi kar sakta. Aap directly Microsoft website se contact karein.",
+          "start_time": 40,
+          "end_time": 45
+        }
+      ]
+    },
+    {
+      "id": "lottery_scam_english_001",
+      "title": "Lottery Scam - English", 
+      "language": "english",
+      "duration_estimate": 350,
+      "scenario": "Lottery winning scam",
+      "script": [
+        {
+          "speaker": "scammer",
+          "text": "Congratulations! You have won $50,000 in our international lottery. Your number was randomly selected.",
+          "start_time": 0,
+          "end_time": 8
+        },
+        {
+          "speaker": "victim",
+          "text": "Really? I never entered any lottery. How is this possible?",
+          "start_time": 8,
+          "end_time": 14
+        },
+        {
+          "speaker": "scammer",
+          "text": "Your phone number was automatically entered. You just need to pay processing fees of $500 to claim your prize.",
+          "start_time": 14,
+          "end_time": 22
+        },
+        {
+          "speaker": "victim",
+          "text": "I need to pay money to get money? That doesn't sound right.",
+          "start_time": 22,
+          "end_time": 27
+        },
+        {
+          "speaker": "scammer",
+          "text": "It's standard procedure sir. We need to verify your identity and process the transfer.",
+          "start_time": 27,
+          "end_time": 33
+        },
+        {
+          "speaker": "victim",
+          "text": "I'm not comfortable with this. I'll pass on the prize.",
+          "start_time": 33,
+          "end_time": 37
+        }
+      ]
+    },
+    {
+      "id": "investment_scam_hindi_001",
+      "title": "Investment Scam - Hindi",
+      "language": "hindi", 
+      "duration_estimate": 450,
+      "scenario": "Fake investment opportunity",
+      "script": [
+        {
+          "speaker": "scammer",
+          "text": "Namaste sir, main investment advisor hun. Aapko ek great opportunity mili hai 50% return ke saath.",
+          "start_time": 0,
+          "end_time": 10
+        },
+        {
+          "speaker": "victim",
+          "text": "50% return? Yeh kaise possible hai? Market mein itna high return nahi milta.",
+          "start_time": 10,
+          "end_time": 18
+        },
+        {
+          "speaker": "scammer",
+          "text": "Sir, yeh crypto investment hai. Hamare clients ko regular profit mil raha hai. Minimum 1 lakh invest karna hoga.",
+          "start_time": 18,
+          "end_time": 28
+        },
+        {
+          "speaker": "victim",
+          "text": "Crypto risky hai. Main thoda research kar leta hun.",
+          "start_time": 28,
+          "end_time": 32
+        },
+        {
+          "speaker": "scammer",
+          "text": "Sir, yeh limited time offer hai. Aaj invest karein toh 100% guarantee hai profit ki.",
+          "start_time": 32,
+          "end_time": 40
+        },
+        {
+          "speaker": "victim",
+          "text": "Main abhi invest nahi kar sakta. Aapko koi document share kar sakte hain?",
+          "start_time": 40,
+          "end_time": 45
+        }
+      ]
+    }
+  ],
+  "recording_instructions": {
+    "audio_quality": "Record in quiet environment with good microphone",
+    "speakers": "Use different voices for scammer and victim",
+    "pacing": "Natural conversation pace, include pauses",
+    "emotions": "Scammer: persuasive, urgent. Victim: cautious, suspicious",
+    "languages": "Use appropriate language mix for Hinglish conversations"
+  },
+  "annotation_guidelines": {
+    "scammer_indicators": [
+      "Asking for personal information",
+      "Creating urgency or fear", 
+      "Requesting money or payment",
+      "Pretending to be from official organizations",
+      "Asking for OTP, passwords, or sensitive data",
+      "Making unrealistic promises",
+      "Using high-pressure tactics"
+    ],
+    "victim_indicators": [
+      "Expressing doubt or suspicion",
+      "Asking questions about legitimacy",
+      "Refusing to share information",
+      "Being cautious about payments",
+      "Requesting verification or documentation"
+    ]
+  }
+}

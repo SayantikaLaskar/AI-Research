@@ -1,0 +1,45 @@
+{
+  "title": "Text-to-Speech Synthesis Guide",
+  "created": "2025-10-21T13:12:30.718203",
+  "tools": {
+    "gtts": {
+      "name": "Google Text-to-Speech",
+      "install": "pip install gtts",
+      "usage": "gtts-cli -f input.txt -l hi -o output.mp3"
+    },
+    "espeak": {
+      "name": "eSpeak",
+      "install": "apt-get install espeak (Linux) or brew install espeak (macOS)",
+      "usage": "espeak -f input.txt -w output.wav"
+    },
+    "festival": {
+      "name": "Festival",
+      "install": "apt-get install festival (Linux)",
+      "usage": "festival --tts input.txt > output.wav"
+    }
+  },
+  "language_codes": {
+    "hindi": "hi",
+    "english": "en",
+    "hinglish": "hi"
+  },
+  "workflow": [
+    "1. Extract text from sample_conversations.json",
+    "2. Split into scammer and victim parts",
+    "3. Generate separate audio for each speaker",
+    "4. Combine audio files with proper timing",
+    "5. Save as WAV format, 16kHz, mono"
+  ],
+  "example_commands": [
+    "# Extract text for Hindi bank fraud scenario",
+    "echo 'Namaste, main SBI bank ke fraud department se baat kar raha hun.' > scammer.txt",
+    "echo 'Haan, main Rajesh Kumar hun. Kya problem hai?' > victim.txt",
+    "",
+    "# Generate TTS audio",
+    "gtts-cli -f scammer.txt -l hi -o scammer.mp3",
+    "gtts-cli -f victim.txt -l hi -o victim.mp3",
+    "",
+    "# Combine with ffmpeg",
+    "ffmpeg -i scammer.mp3 -i victim.mp3 -filter_complex '[0:0][1:0]concat=n=2:v=0:a=1[out]' -map '[out]' combined.wav"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "title": "YouTube Scam Call Search Guide",
+  "created": "2025-10-21T13:12:30.716912",
+  "search_keywords": {
+    "hindi": [
+      "scam call hindi",
+      "bank fraud call india",
+      "OTP fraud call hindi",
+      "phone scam hindi",
+      "fraud call recording hindi",
+      "scam call recording india"
+    ],
+    "hinglish": [
+      "scam call hinglish",
+      "fraud call india",
+      "tech support scam",
+      "phone scam hinglish",
+      "bank fraud hinglish",
+      "scam call recording hinglish"
+    ],
+    "english": [
+      "scam call english",
+      "tech support scam call",
+      "IRS scam call",
+      "lottery scam call",
+      "investment scam call",
+      "phone scam recording english"
+    ]
+  },
+  "video_criteria": {
+    "duration": "1-10 minutes (preferably 2-8 minutes)",
+    "audio_quality": "Clear audio, minimal background noise",
+    "speakers": "2 speakers (scammer and victim)",
+    "content": "Actual scam call conversations",
+    "language": "Match target language (Hindi/Hinglish/English)"
+  },
+  "download_instructions": {
+    "tool": "yt-dlp (recommended) or youtube-dl",
+    "command": "yt-dlp -f 'bestaudio[ext=m4a]/bestaudio' --extract-audio --audio-format wav 'URL'",
+    "output_format": "WAV, 16kHz, mono",
+    "max_duration": "600 seconds (10 minutes)"
+  },
+  "manual_download_steps": [
+    "1. Search YouTube using keywords above",
+    "2. Find videos with scam call conversations",
+    "3. Check video duration (1-10 minutes)",
+    "4. Listen to audio quality",
+    "5. Download using yt-dlp or similar tool",
+    "6. Convert to WAV format, 16kHz, mono",
+    "7. Save to audio/raw/ directory"
+  ]
+}

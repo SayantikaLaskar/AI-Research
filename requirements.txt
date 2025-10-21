@@ -1,0 +1,31 @@
+# Core audio processing
+librosa>=0.10.0
+soundfile>=0.12.0
+pydub>=0.25.1
+
+# Speaker diarization
+pyannote.audio>=3.1.0
+torch>=2.0.0
+torchaudio>=2.0.0
+
+# Speech recognition
+openai-whisper>=20231117
+transformers>=4.30.0
+
+# Data processing
+pandas>=2.0.0
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Utilities
+tqdm>=4.65.0
+requests>=2.31.0
+youtube-dl>=2021.12.17
+yt-dlp>=2023.7.6
+
+# JSON and CSV handling
+json5>=0.9.0
+csvkit>=1.1.1
+
+# Audio format conversion
+ffmpeg-python>=0.2.0

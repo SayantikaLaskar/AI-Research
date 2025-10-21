@@ -1,0 +1,60 @@
+{
+  "file_id": "investment_scam_hindi_001",
+  "duration": 450,
+  "num_speakers": 2,
+  "speakers": [
+    "SPEAKER_1",
+    "SPEAKER_2"
+  ],
+  "language": "hindi",
+  "segments": [
+    {
+      "start": 0,
+      "end": 10,
+      "speaker": "SPEAKER_1",
+      "text": "Namaste sir, main investment advisor hun. Aapko ek great opportunity mili hai 50% return ke saath.",
+      "duration": 10,
+      "role": "scammer"
+    },
+    {
+      "start": 10,
+      "end": 18,
+      "speaker": "SPEAKER_2",
+      "text": "50% return? Yeh kaise possible hai? Market mein itna high return nahi milta.",
+      "duration": 8,
+      "role": "victim"
+    },
+    {
+      "start": 18,
+      "end": 28,
+      "speaker": "SPEAKER_1",
+      "text": "Sir, yeh crypto investment hai. Hamare clients ko regular profit mil raha hai. Minimum 1 lakh invest karna hoga.",
+      "duration": 10,
+      "role": "scammer"
+    },
+    {
+      "start": 28,
+      "end": 32,
+      "speaker": "SPEAKER_2",
+      "text": "Crypto risky hai. Main thoda research kar leta hun.",
+      "duration": 4,
+      "role": "victim"
+    },
+    {
+      "start": 32,
+      "end": 40,
+      "speaker": "SPEAKER_1",
+      "text": "Sir, yeh limited time offer hai. Aaj invest karein toh 100% guarantee hai profit ki.",
+      "duration": 8,
+      "role": "scammer"
+    },
+    {
+      "start": 40,
+      "end": 45,
+      "speaker": "SPEAKER_2",
+      "text": "Main abhi invest nahi kar sakta. Aapko koi document share kar sakte hain?",
+      "duration": 5,
+      "role": "victim"
+    }
+  ]
+}

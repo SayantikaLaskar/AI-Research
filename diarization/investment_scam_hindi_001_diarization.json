@@ -1,0 +1,47 @@
+{
+  "audio_path": "audio/processed/investment_scam_hindi_001.wav",
+  "num_speakers": 2,
+  "speakers": [
+    "SPEAKER_1",
+    "SPEAKER_2"
+  ],
+  "total_duration": 450,
+  "segments": [
+    {
+      "start": 0,
+      "end": 10,
+      "speaker": "SPEAKER_1",
+      "duration": 10
+    },
+    {
+      "start": 10,
+      "end": 18,
+      "speaker": "SPEAKER_2",
+      "duration": 8
+    },
+    {
+      "start": 18,
+      "end": 28,
+      "speaker": "SPEAKER_1",
+      "duration": 10
+    },
+    {
+      "start": 28,
+      "end": 32,
+      "speaker": "SPEAKER_2",
+      "duration": 4
+    },
+    {
+      "start": 32,
+      "end": 40,
+      "speaker": "SPEAKER_1",
+      "duration": 8
+    },
+    {
+      "start": 40,
+      "end": 45,
+      "speaker": "SPEAKER_2",
+      "duration": 5
+    }
+  ]
+}
